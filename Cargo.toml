@@ -1,0 +1,12 @@
+[package]
+name = "esp-idf-template"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0"
+esp-idf-svc = "0.51"
+log = "0.4"
+
+[build-dependencies]
+embuild = "0.33"
